@@ -85,13 +85,11 @@ static int set_semvalue(){
 	if(semctl(sem_id,0,SETVAL,sem_union) == -1){
 		return status;
 	}
-
 	status = 1;
 	return status;
 }
 
 /*
-	function to sem_wait
 	change the value
 	of the semaphore by -1
 	which means it is in the waiting state
