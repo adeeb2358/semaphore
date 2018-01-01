@@ -94,8 +94,7 @@ static int set_semvalue(){
 	function to sem_wait
 	change the value
 	of the semaphore by -1
-	which means its in 
-	the waiting state
+	which means it is in the waiting state
 */
 
 static int semaphore_p(){
