@@ -33,7 +33,7 @@ git:
 	@ git init
 	@ git add .
 	@ git commit -m"new updates"
-	@ git push origin master
+	@ git push -f origin master
 
 build-and-run: compile run
 
